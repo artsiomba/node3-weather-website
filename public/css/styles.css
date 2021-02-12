@@ -38,7 +38,10 @@ header a {
 .main-content {
   flex-grow: 1;
 }
-
+/* #weather-icon {
+  width: 16px;
+  height: 16px;
+} */
 input {
   border: 1px solid #cccccc;
   padding: 8px;

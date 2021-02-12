@@ -12,6 +12,7 @@ const forecast = ({ longitude, latitude }, callback) => {
       callback(undefined, {
         forecast: `${resp.body.current.weather_descriptions}. It is currently ${resp.body.current.temperature} degrees. There is a ${resp.body.current.precip}% chance of rain.`,
         location: resp.body.location.name,
+        icon: resp.body.current.weather_icons,
       });
     }
   });
